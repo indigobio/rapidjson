@@ -15,6 +15,8 @@
 #ifndef RAPIDJSON_DOCUMENT_H_
 #define RAPIDJSON_DOCUMENT_H_
 
+#define RAPIDJSON_NOMEMBERITERATORCLASS // to avoid deprecated std::iterator
+
 /*! \file document.h */
 
 #include "reader.h"
